@@ -2578,11 +2578,12 @@ class Planet:
 jupiter = Planet('Юпитер', 69911, -108)
 pluto = Planet('Плутон', 1187, -233.15)
 uranus = Planet('Уран', 25362, -224.2)
-neptune = Planet('Нептун', 2133, -216.1)
-
+neptune = Planet('Нептун', 24662, -220)
+earth = Planet('Земля', 6371, 14)
 
 jupiter.show_info()
 pluto.show_info()
 uranus.show_info()
 neptune.show_info()
+earth.show_info()
 
