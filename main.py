@@ -2581,6 +2581,7 @@ uranus = Planet('Уран', 25362, -224.2)
 neptune = Planet('Нептун', 24662, -220)
 earth = Planet('Земля', 6371, 14)
 
+
 jupiter.show_info()
 pluto.show_info()
 uranus.show_info()
