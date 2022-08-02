@@ -2558,30 +2558,4 @@
 #
 # mike.show_contact()
 # vlad.show_contact()
-#
-
-import math
-
-
-class Planet:
-    def __init__(self, name, radius, temp_celsius):
-        self.name = name
-        self.surface_area = 4 * math.pi * radius**2
-        self.average_temp_celsius = temp_celsius
-        self.average_temp_fahrenheit = (temp_celsius * 9 / 5) + 32
-
-    def show_info(self):
-        print(f'Планета {self.name} имеет площадь поверхности {self.surface_area} кв.км.')
-        print(f'Средняя температура поверхности планеты: {self.average_temp_fahrenheit} по Фаренгейту.')
-
-
-pluto = Planet('Плутон', 1187, -233.15)
-uranus = Planet('Уран', 25362, -224.2)
-neptune = Planet('Нептун', 24662, -220)
-earth = Planet('Земля', 6371, 14)
-
-pluto.show_info()
-uranus.show_info()
-neptune.show_info()
-earth.show_info()
 
